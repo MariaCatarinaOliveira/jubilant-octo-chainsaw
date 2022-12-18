@@ -1,0 +1,38 @@
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+  
+  #container{
+    display: flex;
+    flex-direction: column;
+}
+  
+  #container img{
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  #container button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    border-color: antiquewhite;
+}
+  
+  .lightoff{
+    background-color: black;
+    transition: background-color 1s ease-out;
+}
+  
+  .lighton{
+    background-color: white;
+    transition: background-color 4s ease-out;
+}
+  
